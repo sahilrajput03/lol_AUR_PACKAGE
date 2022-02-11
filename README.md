@@ -1,6 +1,17 @@
 # README
 
 - Inspiration(making AUR package): [Click Here](https://youtu.be/ls_hpopfsQU).
+- You can install current package in your archlinux or any of its disto
+  using command:
+
+  ```bash
+  makepkg -i # Here makepkg installs the after generating a package-archive internally using pacman.
+
+  # OR you can use below commands too:
+  makepkg
+  sudo pacman -U lol-0.0.0-1-x86_64.pkg.tar.zst
+  ```
+
 - TODO: (publishing AUR package to AUR publicly): [Click here](https://youtu.be/iUz28vbWgVw).
 
 - Running `make install` runs `make` command from `Makefile` just as
@@ -8,7 +19,7 @@
 
 - Creating AUR packages @ [archlinux.org](https://wiki.archlinux.org/title/creating_packages).
 
-- `make` over `makepkg`: [Click here](https://unix.stackexchange.com/a/605951/504112)
+- `make` (general gnu utility) vs. `makepkg` (specifically for archlinux distros): [Click here](https://unix.stackexchange.com/a/605951/504112)
 
 - `makepkg` is used to compile a project with the help of `PKGBUILD`
   file to a `pkg-name.pkg.tar.zst` package archive. This `PKGBUILD` file
@@ -35,7 +46,7 @@
   simply.
 
 - An amazing guide to `Makefile` file is: 
-  - [A grade source](https://www.softwaretestinghelp.com/cpp-makefile-tutorial/) .
+  - [A great source @ softwaretestinghelp.com](https://www.softwaretestinghelp.com/cpp-makefile-tutorial/) .
   - Also some other sources that you can take look at:
     - http://nuclear.mutantstargoat.com/articles/make/ as well.
     - Or at https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/ .

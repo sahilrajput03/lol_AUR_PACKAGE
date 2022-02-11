@@ -1,5 +1,19 @@
 README
 
+**Contents of `Makefile`:***
+
+```
+start:
+        echo Program starts!
+
+test:
+        echo Testing starts now!
+
+help:
+        echo All you need is to believe in yourself.
+```
+
+**now you can run on terminal:**
 ```bash
 make start
 # Output: 

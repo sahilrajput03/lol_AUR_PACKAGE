@@ -10,6 +10,16 @@
   # OR you can use below commands too:
   makepkg
   sudo pacman -U lol-0.0.0-1-x86_64.pkg.tar.zst
+
+
+  # Installation info:
+  # Above commands installs lol bash script(currently in `src/usr/bin/lol` to `/usr/bin/lol` path.
+  ```
+
+  Usage:
+  ```bash
+  lol
+  # Output: Laugh out loud ~Sahil
   ```
 
 - TODO: (publishing AUR package to AUR publicly): [Click here](https://youtu.be/iUz28vbWgVw).

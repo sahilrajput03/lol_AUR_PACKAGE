@@ -11,12 +11,17 @@
 - `make` over `makepkg`: [Click here](https://unix.stackexchange.com/a/605951/504112)
 
 - `makepkg` is used to compile a project with the help of `PKGBUILD`
-  file. This `PKGBUILD` file uses `src/Makefile` and then it
-  interanally runs `make install` command as you can see in `package`
-  function in the `PKGBUILD` file. The result of `makepkg`
-  command is that we get a `my-pkg.pkg.tar.zst` file which can be
-  installed to a system using `makepkg -i` or with `pacman` easily i.e., `pacman -U
-  my-file.pkg.tar.zst` easily. ALSO, if the file is already generated
+  file to a `pkg-name.pkg.tar.zst` package archive. This `PKGBUILD` file
+  uses `src/Makefile` and then it interanally runs `make install`
+  command as you can see in `package` function in the `PKGBUILD` file.
+
+  The result of `makepkg` command is that we get a `my-pkg.pkg.tar.zst` file which can be
+  installed to a system using `makepkg -i`(makepkg -i actually runs 
+  `install` command then installs the newly made `package-archive` 
+  (i.e., `pkg-name.pkg.tar.zst` file) with `pacman` internally or with
+  `pacman` easily i.e., `pacman -U my-file.pkg.tar.zst` easily.
+
+  ALSO, if the file is already generated
   from previouly if you ran `makepkg` earlier, then you MUST either
   delete that .pkg.tar.zst file or run `makepkg -f` to simply overwrite
   it!

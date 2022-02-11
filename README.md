@@ -61,7 +61,7 @@
     - http://nuclear.mutantstargoat.com/articles/make/ as well.
     - Or at https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/ .
 
-- Tree directory structure of pkg folder (generated during `makepkg`
+- Tree directory structure of `pkg` folder (generated during `makepkg`
   command:
 
   ```bash

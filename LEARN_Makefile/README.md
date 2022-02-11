@@ -1,5 +1,7 @@
 ## README
 
+Learn more fun things about Makefile @ amazing blog @ https://makefiletutorial.com/. 
+
 **Contents of `Makefile`:**
 
 ```

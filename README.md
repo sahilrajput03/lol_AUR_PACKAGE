@@ -60,3 +60,17 @@
   - Also some other sources that you can take look at:
     - http://nuclear.mutantstargoat.com/articles/make/ as well.
     - Or at https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/ .
+
+- Tree directory structure of pkg folder (generated during `makepkg`
+  command:
+
+  ```bash
+  tree pkg/
+  pkg/
+  └── lol
+      └── usr
+          └── bin
+              └── lol
+  
+  3 directories, 1 file
+  ```

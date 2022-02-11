@@ -2,6 +2,8 @@
 
 Learn more fun things about Makefile @ amazing blog @ https://makefiletutorial.com/. 
 
+Official help for *Makefile*: https://www.gnu.org/software/make/manual/make.html
+
 **Contents of `Makefile`:**
 
 ```

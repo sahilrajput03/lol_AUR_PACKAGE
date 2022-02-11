@@ -1,6 +1,6 @@
-README
+## README
 
-**Contents of `Makefile`:***
+**Contents of `Makefile`:**
 
 ```
 start:

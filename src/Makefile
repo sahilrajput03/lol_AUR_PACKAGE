@@ -1,4 +1,4 @@
-# Any build can be run like ```make buildCommandName```, e.g., ```make install``` ~Sahil
+# Any build command can be run like ```make buildCommandName```, e.g., ```make install``` ~Sahil
 # Source of this sample file: https://stackoverflow.com/a/1484826/10012446
 
 # This is ```install``` build command.

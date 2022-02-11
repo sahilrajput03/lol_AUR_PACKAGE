@@ -1,6 +1,6 @@
 # README
 
-- Inspiration(making AUR package): [Click Here](https://youtu.be/ls_hpopfsQU).
+- **Inspiration** (making AUR package): [Click Here](https://youtu.be/ls_hpopfsQU).
 - You can install current package in your archlinux or any of its disto
   using command:
 
@@ -16,18 +16,18 @@
   # Above commands installs lol bash script(currently in `src/usr/bin/lol` to `/usr/bin/lol` path.
   ```
 
-  Usage:
+  **Usage:**
   ```bash
   lol
   # Output: Laugh out loud ~Sahil
   ```
 
-- TODO: (publishing AUR package to AUR publicly): [Click here](https://youtu.be/iUz28vbWgVw).
+- **TODO**: (publishing AUR package to AUR publicly): [Click here](https://youtu.be/iUz28vbWgVw).
 
 - Running `make install` runs `make` command from `Makefile` just as
   `npm run start` runs `start` command from `package.json` file.
 
-- Creating AUR packages @ [archlinux.org](https://wiki.archlinux.org/title/creating_packages).
+- **Creating AUR packages @ [archlinux.org](https://wiki.archlinux.org/title/creating_packages).**
 
 - `make` (general gnu utility) vs. `makepkg` (specifically for archlinux distros): [Click here](https://unix.stackexchange.com/a/605951/504112)
 
@@ -47,7 +47,7 @@
   delete that .pkg.tar.zst file or run `makepkg -f` to simply overwrite
   it!
 
-- The pkg folder is always destoryed and created again whenever you run
+- The *pkg* folder is always destoryed and created again whenever you run
   'makepkg' command.
 
 - In `PKGBUILD` file, `$pkgdir` referes to `/home/array/aur/lol/pkg/lol/`
@@ -56,7 +56,7 @@
   simply.
 
 - An amazing guide to `Makefile` file is: 
-  - [A great source @ softwaretestinghelp.com](https://www.softwaretestinghelp.com/cpp-makefile-tutorial/) .
+  - **[A great source @ softwaretestinghelp.com](https://www.softwaretestinghelp.com/cpp-makefile-tutorial/).**
   - Also some other sources that you can take look at:
     - http://nuclear.mutantstargoat.com/articles/make/ as well.
     - Or at https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/ .

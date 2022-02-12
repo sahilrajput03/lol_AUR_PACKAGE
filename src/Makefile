@@ -3,10 +3,10 @@
 
 # This is ```install``` build command.
 install:
-	echo -e "Executing install script in Makefile (file: src/MakeFile)\n" 
-	echo -e "pwd=$(pwd) (file: src/MakeFile) \n"
-	echo -e "DESTDIR $(DESTDIR) (file: src/MakeFile)\n"
-	cp -r usr $(DESTDIR) # We are copying usr folder to our `pkg/pkg-name/` DIRECTORY (file: src/MakeFile)
+	echo -e "Executing install script in Makefile (file: src/Makefile)\n" 
+	echo -e "pwd=$(pwd) (file: src/Makefile) \n"
+	echo -e "DESTDIR $(DESTDIR) (file: src/Makefile)\n"
+	cp -r usr $(DESTDIR) # We are copying usr folder to our `pkg/pkg-name/` DIRECTORY (file: src/Makefile)
 
 # This is ```clean``` build command.
 # clean:
